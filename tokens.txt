@@ -1,0 +1,12 @@
+INT int
+STRING string
+VAR nome_variável
+NUM número
+CONST @variável
+PLUS +
+MINUS -
+MULTIPLY #
+EQUAL =
+BIGGER >
+SMALLER <
+SEMICOLON ;

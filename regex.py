@@ -1,0 +1,18 @@
+a_to_z = "((((((((((((((((((((((ab|)c|)d|)e|)f|)g|)h|)i|)j|)k|)l|)m|)n|)o|)p|)q|)r|)s|)t|)u|)v|)w|)x|)y|)z|)"
+A_to_Z = "((((((((((((((((((((((AB|)C|)D|)E|)F|)G|)H|)I|)J|)K|)L|)M|)N|)O|)P|)Q|)R|)S|)T|)U|)V|)W|)X|)Y|)Z|)"
+zero_to_nine = "(((((((((01|)2|)3|)4|)5|)6|)7|)8|)9|)"
+
+INT = "((in.)t.)"
+STRING = "(((((st.)r.)i.)n.)g.)"
+VAR = "((((" + a_to_z + A_to_Z + "|)" + zero_to_nine + "|)_|)*)"
+NUM = "(" + zero_to_nine + "*)"
+CONST = "(@((((" + a_to_z + A_to_Z + "|)" + zero_to_nine + "|)_|)*).)"
+PLUS = "+"
+MINUS = "-"
+MULTIPLY = "#"
+EQUAL = "="
+BIGGER = ">"
+SMALLER = "<"
+SEMICOLON = ";"
+
+SINGLE = "((((((" + PLUS + MINUS + "|)" + MULTIPLY + "|)" + EQUAL + "|)" + BIGGER + "|)" + SMALLER + "|)" + SEMICOLON + "|)"

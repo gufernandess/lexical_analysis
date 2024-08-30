@@ -1,0 +1,3 @@
+int a = 0 ;
+in b = 5 + a ;
+string c = @teSte ;
